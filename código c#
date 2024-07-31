@@ -1,0 +1,21 @@
+// exercício proposto entrada de dados
+
+String nome1 = Console.ReadLine();
+int quartos = int.Parse(Console.ReadLine());
+double produto = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+string[] v = Console.ReadLine().Split(' ');
+string UltimoNome = v[0];
+string idade2 = v[1];
+string altura = v[2];
+
+Console.WriteLine("Entre com seu nome completlo:");
+Console.WriteLine(nome1);
+Console.WriteLine("Quantos quartos tem na sua casa?");
+Console.WriteLine(quartos);
+Console.WriteLine("Entre com o preço do produto selecionado:");
+Console.WriteLine(produto.ToString(CultureInfo.InvariantCulture));
+Console.WriteLine("Finalize com seu último nome, idade e altura:");
+Console.WriteLine(UltimoNome);
+Console.WriteLine(idade2);
+Console.WriteLine(altura.ToString(CultureInfo.InvariantCulture));
